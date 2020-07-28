@@ -31,35 +31,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="690">
+              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding>
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="312">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/User1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/EnumSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/GenerateCode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="436">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +127,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -77,23 +135,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/*** 生成指定位数的随机数字 * @param len 随机数的位数 * @return 生成的随机数 */ public static String generateCode(int len){ len = Math.min(len, 8); int min = Double.valueOf(Math.pow(10, len - 1)).intValue(); int num = new Random().nextInt( Double.valueOf(Math.pow(10, len + 1)).intValue() - 1) + min; return String.valueOf(num).substring(0,len); }</find>
+      <find>singletonTest</find>
     </findStrings>
+    <replaceStrings>
+      <replace>instance</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/javaSETest" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/Name.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/utils/CreateNameUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/undeathRabbit.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/UndeadRabbit.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/RK.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/DoubleTest.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/MyRunable.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/thread/MyRunable.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/demo/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/ioc/Apple.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/ioc/Orange.java" />
         <option value="$PROJECT_DIR$/src/com/epoch/ioc/Fruit.java" />
         <option value="$PROJECT_DIR$/src/com/epoch/ioc/Factory.java" />
         <option value="$PROJECT_DIR$/src/com/epoch/thread/ThreadPoolExecutorDemo.java" />
@@ -126,18 +179,34 @@
         <option value="$PROJECT_DIR$/src/qface/net/sdk/bean/basicconfig/Data_T_TimeReboot.java" />
         <option value="$PROJECT_DIR$/src/qface/net/sdk/bean/basicconfig/Data_T_UpdateSetup.java" />
         <option value="$PROJECT_DIR$/src/com/epoch/thread/SingletonDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest3.java" />
         <option value="$PROJECT_DIR$/src/com/epoch/demo/GenerateCode.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/demo/Migc129.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/demo/Migic129.java" />
+        <option value="$USER_HOME$/Desktop/look.html" />
+        <option value="$PROJECT_DIR$/src/com/epoch/demo/Magic128.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/singleton/EnumSigleton.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/util/CloneUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/util/CloneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/clone/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/clone/CloneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/serializable/User.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/serializable/User1.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest1.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/singleton/EnumSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="810" />
+    <option name="width" value="1119" />
+    <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -145,7 +214,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,12 +237,34 @@
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="epoch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="clone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epoch" type="462c0819:PsiDirectoryNode" />
+              <item name="serializable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epoch" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epoch" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,10 +275,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epoch.serializable" />
       <recent name="com.epoch.ioc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -209,13 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenerateCode">
-    <configuration name="GenerateCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epoch.demo.GenerateCode" />
+  <component name="RunManager" selected="Application.SingletonTest3">
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epoch.clone.CloneTest" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epoch.demo.*" />
+          <option name="PATTERN" value="com.epoch.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epoch.thread.SingletonDemo" />
+    <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epoch.singleton.EnumSingleton" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epoch.thread.*" />
+          <option name="PATTERN" value="com.epoch.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +330,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epoch.thread.SingletonTest" />
+    <configuration name="SerializableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epoch.serializable.SerializableTest" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epoch.thread.*" />
+          <option name="PATTERN" value="com.epoch.serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epoch.singleton.SingletonTest2" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epoch.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,26 +369,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epoch.stream.StreamDistinct" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epoch.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.SingletonTest2" />
+      <item itemvalue="Application.EnumSingleton" />
+      <item itemvalue="Application.CloneTest" />
+      <item itemvalue="Application.SerializableTest" />
+      <item itemvalue="Application.SingletonTest3" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenerateCode" />
         <item itemvalue="Application.SingletonTest3" />
-        <item itemvalue="Application.SingletonTest" />
-        <item itemvalue="Application.SingletonDemo" />
-        <item itemvalue="Application.StreamDistinct" />
+        <item itemvalue="Application.EnumSingleton" />
+        <item itemvalue="Application.SerializableTest" />
+        <item itemvalue="Application.CloneTest" />
+        <item itemvalue="Application.SingletonTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -344,11 +445,25 @@
       <workItem from="1592184645463" duration="910000" />
       <workItem from="1592186280361" duration="1240000" />
       <workItem from="1593323520658" duration="22000" />
+      <workItem from="1593488925564" duration="964000" />
+      <workItem from="1593596119543" duration="781000" />
+      <workItem from="1593650044118" duration="607000" />
+      <workItem from="1593673099632" duration="665000" />
+      <workItem from="1593673857897" duration="4354000" />
+      <workItem from="1593736841078" duration="2330000" />
+      <workItem from="1593754333955" duration="1839000" />
+      <workItem from="1594001813688" duration="1783000" />
+      <workItem from="1594087659300" duration="695000" />
+      <workItem from="1594625234464" duration="38000" />
+      <workItem from="1595409826790" duration="174000" />
+      <workItem from="1595410151932" duration="695000" />
+      <workItem from="1595816971298" duration="951000" />
+      <workItem from="1595897146938" duration="13477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128524000" />
+    <option name="totallyTimeSpent" value="157877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,16 +478,17 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19369973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.36350778" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29985857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37482318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,9 +496,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.3008658" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.3281471" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,132 +550,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/javaSETest" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/ioc/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/ioc/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/ioc/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/CreateImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/ProducerAndCustomerMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7793">
-          <caret line="133" column="23" lean-forward="true" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="530" column="23" lean-forward="true" selection-start-line="530" selection-start-column="23" selection-end-line="530" selection-end-column="23" />
-          <folding>
-            <element signature="e#26565#26566#0" expanded="true" />
-            <element signature="e#26601#26602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="1258" column="11" selection-start-line="1258" selection-start-column="11" selection-end-line="1258" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/thread/MyRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/ReadFileContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/thread/ThreadPoolExecutorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/thread/LocalThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/thread/LocalThreadFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/NumberToWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -644,31 +642,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/GenerateCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/ProducerAndCustomerMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../新建文件夹/壁纸/look.html" />
+    <entry file="file://$USER_HOME$/Desktop/look.html" />
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/Magic128.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/RK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/clone/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/clone/CloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/util/CloneUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/User.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/User1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/serializable/SerializableTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epoch/singleton/SingletonTest3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epoch/demo/GenerateCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="436">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

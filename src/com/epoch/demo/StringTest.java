@@ -82,9 +82,11 @@ public class StringTest {
             char c = s.charAt(i);
             strSet.add(String.valueOf(c));
         }
+        StringBuilder sBuilder = new StringBuilder(s);
         for (String s1 : strSet) {
-            s+=s1;
+            sBuilder.append(s1);
         }
+        s = sBuilder.toString();
         return s;
     }
 

@@ -35,6 +35,8 @@ public class SingletonTest {
         SingletonTest newInstance = constructor.newInstance();
 
         System.out.println(newInstance == instance);
+
+
     }
 
 }
